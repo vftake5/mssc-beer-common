@@ -16,7 +16,7 @@
 
     <groupId>hu.vf.guru</groupId>
     <artifactId>mssc-beer-common</artifactId>
-    <version>1.0</version>
+    <version>1.0.0</version>
 
     <name>MSSC Beer Common elements</name>
 
@@ -80,12 +80,6 @@
     <profiles>
         <profile>
             <id>Deploy_release</id>
-            <!--            <activation>-->
-            <!--                <property>-->
-            <!--                    <name>performRelease</name>-->
-            <!--                    <value>true</value>-->
-            <!--                </property>-->
-            <!--            </activation>-->
             <build>
                 <plugins>
                     <plugin>
