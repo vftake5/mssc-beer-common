@@ -25,8 +25,6 @@ public class BeerDto implements Serializable
 	static final long serialVersionUID = 4814651101159979891L;
 
 	@Null
-//	@Type(type="pg-uuid")
-//	@Type(type="uuid-char")
 	@Type(type="org.hibernate.type.PostgresUUIDType")
 	private UUID id;
 	@Null
